@@ -1,6 +1,3 @@
-public struct Sound {
-    public private(set) var text = "Hello, World!"
-
-    public init() {
-    }
-}
+/**
+ @brief: Sound Library
+ */
