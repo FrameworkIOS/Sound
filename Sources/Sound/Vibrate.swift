@@ -10,11 +10,7 @@ import Foundation
 @available(iOS 10.0, *)
 extension Sound {
     public enum Vibration: Int {
-        case `default` = 4085
-        
-        /**
-         - Alert
-         */
+        case `default` = 4095
         case alert = 1011
     }
 }
