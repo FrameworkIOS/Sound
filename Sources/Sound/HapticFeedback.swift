@@ -9,7 +9,7 @@ import Foundation
 
 @available(iOS 10.0, *)
 extension Sound {
-    public enum HapticFeedbakc {
+    public enum HapticFeedback {
         case notification(Notification)
         public enum Notification {
             case success
@@ -17,10 +17,10 @@ extension Sound {
             case failure
         }
         
-        case impac(Impact)
-        
+        case impact(Impact)
         public enum Impact {
             case light
+            case medium
             case heavy
         }
         
